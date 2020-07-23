@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const connexion = 'mongodb://localhost:27017,localhost:27018,localhost:27019/example'
+const connexion = 'mongodb://DESKTOP-BB8I67U:27017,DESKTOP-BB8I67U:27018,DESKTOP-BB8I67U:27019/example'
 
 mongoose.connect(`${connexion}`, { replicaSet: 'rs' })
 const Book = require('./models/book')
